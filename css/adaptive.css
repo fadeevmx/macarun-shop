@@ -1,0 +1,372 @@
+@media screen and (max-width: 1200px) {
+    .advantages {
+        grid-template-columns: repeat(2, 220px);
+    }
+
+    .choice-products {
+        grid-template-columns: repeat(2, 263px);
+        justify-content: center;
+        row-gap: 136px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .order {
+        position: relative;
+    }
+
+    .order-image {
+        position: absolute;
+        left: 330px;
+        top: 280px;
+    }
+
+    .order-image img {
+        margin-right: 0;
+    }
+
+    .order-info {
+        max-width: 410px;
+    }
+
+    .order-image-strawberry-one img {
+        left: 320px;
+        bottom: 5px;
+    }
+
+    .order-image-strawberry-two img {
+        left: 570px;
+        bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .main {
+        position: relative;
+        padding: 64px 0 420px 0;
+    }
+
+    .menu-phone a {
+        display: none;
+    }
+
+    .main-image {
+        position: absolute;
+        bottom: 62px;
+        right: 55px;
+    }
+
+    .main-info-text {
+        max-width: 348px;
+    }
+
+    .main-image::before {
+        width: 150px;
+        height: 150px;
+    }
+
+    .history .container:first-child {
+        flex-direction: column;
+    }
+
+    .history-image img {
+        max-width: 302px;
+    }
+
+    .history-info {
+        text-align: center;
+    }
+
+    .history-info-title h1 {
+        display: inline-block;
+    }
+
+    .history-info-text {
+        max-width: 668px;
+    }
+
+    .advantages {
+        column-gap: 54px;
+        row-gap: 80px;
+    }
+
+    .advantage {
+        text-align: center;
+    }
+
+    .advantage-ellipse {
+        margin: 0 auto 13px;
+    }
+
+    .choice-product {
+        position: relative;
+    }
+}
+
+
+
+@media screen and (max-width: 740px) {
+    .order-image img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .main {
+        padding: 54px 0 43px;
+    }
+
+    .main-image {
+        position: relative;
+        margin-top: 38px;
+        right: auto;
+        bottom: auto;
+    }
+
+    .main .container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 658px) {
+    .choice-products {
+        grid-template-columns: repeat(1, 280px);
+    }
+}
+
+@media screen and (max-width: 641px) {
+    .order-image-strawberry-two img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .footer .container {
+        grid-template-areas:
+          "logo"
+          "number"
+          "social"
+            "rights";
+        text-align: center;
+        justify-content: center;
+    }
+
+    .footer-phone {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .advantages {
+        grid-template-columns: repeat(2, 165px);
+        column-gap: 15px;
+        row-gap: 36px;
+    }
+
+    .advantage-title {
+        font-size: 18px;
+    }
+
+    .advantage-text {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 563px) {
+    .main-image img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .menu ul {
+        width: 100%;
+    }
+
+    .main-info-title {
+        margin-bottom: 40px;
+    }
+
+    .main-info-title h1 {
+        font-size: 32px;
+    }
+
+    .main-info-text {
+        margin-bottom: 40px;
+    }
+
+    .menu-item a {
+        font-size: 24px;
+        color: rgb(255, 218, 224);
+    }
+
+    .menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        left: 0;
+        top: 0;
+        background: #202020c9;
+        z-index: 9999;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-item {
+        margin: 15px 0;
+    }
+
+    .history-image img {
+        width: 100%;
+    }
+
+    .order-image-strawberry-two img {
+        display: none;
+    }
+
+    .order-image {
+        display: none;
+    }
+
+    .footer {
+        display: block;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .menu-phone {
+        display: none;
+    }
+
+    .menu.open {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu .close {
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: rgb(164, 107, 0);
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: 417px) {
+    .order-image-strawberry-one img {
+        display: none;
+    }
+
+    .order-info-text {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .main .container {
+        text-align: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .main-info-text {
+        font-size: 16px;
+    }
+
+    .history .container {
+        text-align: center;
+    }
+
+    .history-info-title {
+        margin-bottom: 40px;
+    }
+
+    .history-info-title h1 {
+        font-size: 30px;
+    }
+
+    .history-info-text {
+        font-size: 16px;
+    }
+
+    .main-info-text {
+        font-size: 13px;
+    }
+
+    .caption {
+        font-size: 30px;
+    }
+
+    .choice .container {
+        padding: 0 65px;
+    }
+
+    .order-data {
+        text-align: center;
+    }
+
+    .order-image-strawberry-one img {
+        top: -150px;
+        left: 200px;
+    }
+
+    .order-info-title h2 {
+        font-size: 30px;
+    }
+
+    .order-info-text {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .order-info-choice-input {
+        width: 100%;
+    }
+
+    .order-info-data-input-name {
+        width: 100%;
+    }
+
+    .order-info-data-input-number {
+        width: 100%;
+    }
+
+    .order-action .btn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .advantages {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .choice .container {
+        padding: 0 35px;
+    }
+
+    .order-info-text {
+        margin-top: 20px;
+    }
+}
